@@ -128,8 +128,8 @@ class Config:
         if not self._login_token:
             raise HelpfulError(
                 "No bot token was specified in the config.",
-                "As of v1.9.6_1, you are required to use a Discord bot account. "
-                "See https://github.com/Just-Some-Bots/MusicBot/wiki/FAQ for info.",
+                "As of v0.0.1_1, you are required to use a Discord bot account. "
+                "See https://web.lkdiscord.com/Ahanna/FAQ for info.",
                 preface=self._confpreface
             )
 
